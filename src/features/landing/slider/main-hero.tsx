@@ -18,6 +18,7 @@ export type Data = {
   title: string;
   description: string;
   subText: string;
+  detailLink: string;
 };
 
 export type CurrentSlideData = {
@@ -29,7 +30,7 @@ const MainHero = ({ ref }) => {
   const imageAreaWrapperRef = useRef<HTMLDivElement>(null);
   const [data, setData] = React.useState<Data[]>(sliderData.slice(1));
   const [transitionData, setTransitionData] = React.useState<Data>(
-    sliderData[0],
+    sliderData[0]
   );
   const [currentSlideData, setCurrentSlideData] =
     React.useState<CurrentSlideData>({
@@ -116,55 +117,67 @@ const sliderData = [
     id: 0,
     cardImg: "/models/shine/card/shine-1.png",
     heroImg: "/models/shine/hero/shine-hero.png",
-    subText: "1.4 TDI 150 HP",
+    subText: "190 HP",
     description:
-      "Hava direncini azaltmaya ve arka tekerlek çekişini artırmaya yardımcı olan optimum aerodinamik performans için tasarlanmıştır",
+      "Bu benzersiz tasarım, modern teknoloji ile klasik güzelliği harmanlayarak her ortamda parlamayı başarır.",
     title: "Shine 1",
+    detailLink: "/shine",
   },
-  {
-    id: 1,
-    cardImg: "/models/shine/card/shine-gs.png",
-    heroImg: "/models/shine/hero/shine-gs-hero.png",
-    title: "Shine GS",
-    description:
-      "Koyu gri ve turuncu vurgulara sahip siyah spor iç mekan, Mach logosu ve koyu gri tavan kaplaması",
-    subText: "1.6 TFSI 180 HP",
-  },
-  {
-    id: 2,
-    cardImg: "/models/shine/card/shine-max.png",
-    heroImg: "/models/shine/hero/shine-max-hero.png",
-    title: "Shine Max",
-    description:
-      "Wild animals in their natural environment, luxury safari lodges",
-    subText: "2.0 TDI 250 HP",
-  },
+  // {
+  //   id: 1,
+  //   cardImg: "/models/shine/card/shine-gs.png",
+  //   heroImg: "/models/shine/hero/shine-gs-hero.png",
+  //   title: "Shine GS",
+  //   description:
+  //     "Koyu gri ve turuncu vurgulara sahip siyah spor iç mekan, Mach logosu ve koyu gri tavan kaplaması",
+  //   subText: "1.6 TFSI 180 HP",
+  // },
+  // {
+  //   id: 2,
+  //   cardImg: "/models/shine/card/shine-max.png",
+  //   heroImg: "/models/shine/hero/shine-max-hero.png",
+  //   title: "Shine Max",
+  //   description:
+  //     "Wild animals in their natural environment, luxury safari lodges",
+  //   subText: "2.0 TDI 250 HP",
+  // },
   {
     id: 3,
     cardImg: "/models/shine/card/shine-huge.png",
     heroImg: "/models/shine/hero/shine-huge-hero.png",
-    title: "Shine Huge",
+    title: "Huge",
     description:
-      "A stunning ancient jungle city with hundreds of intricately constructed temples",
-    subText: "2.0 TFSI 190 HP",
+      "Lüks ve performansı bir araya getirerek her yolculuğu özel kılar. Geniş ve ferah iç mekanı, yüksek kaliteli deri döşemeleri ve gelişmiş multimedya sistemi ile konforu en üst seviyede yaşatır.",
+    subText: "190 HP",
+    detailLink: "/huge",
   },
+  // {
+  //   id: 4,
+  //   cardImg: "/models/t5/card/t5evo.png",
+  //   heroImg: "/models/t5/hero/t5-hero.png",
+  //   title: "T5 Evo",
+  //   description:
+  //     "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+  //   subText: "2.6 TDI 190 HP",
+  // },
+  // {
+  //   id: 5,
+  //   cardImg: "/models/m4/card/m4.png",
+  //   heroImg: "/models/m4/hero/m4-hero.png",
+  //   title: "M4 U-Tour",
+  //   description:
+  //     "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+  //   subText: "2.8 TDI 200 HP",
+  // },
   {
-    id: 4,
-    cardImg: "/models/t5/card/t5evo.png",
-    heroImg: "/models/t5/hero/t5-hero.png",
-    title: "T5 Evo",
+    id: 6,
+    cardImg: "/models/rich6/rich-menu1.png",
+    heroImg: "/images/detail/rich6/rich6_3.jpg",
+    title: "Rich 6",
     description:
-      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
-    subText: "2.6 TDI 190 HP",
-  },
-  {
-    id: 5,
-    cardImg: "/models/m4/card/m4.png",
-    heroImg: "/models/m4/hero/m4-hero.png",
-    title: "M4 U-Tour",
-    description:
-      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
-    subText: "2.8 TDI 200 HP",
+      "Benzersiz güç ve verimlilik. 2.3 litrelik dizel motor, 120 KW güç, 380 Nm tork ve 7.7 l/100 km yakıt tüketimi sunar. Ağır yük taşırken veya off-road sürüşte mükemmel performans sağlar.",
+    subText: "245 HP",
+    detailLink: "/rich6",
   },
 ];
 

@@ -1,0 +1,132 @@
+.modelsMenuWrapper {
+  background-color: #fff;
+  width: 100vw;
+  //height: 100vh;
+  position: absolute;
+  top: 144px;
+  left: 0;
+  padding:24px 48px 24px;
+
+  .models {
+    display: flex;
+    flex-direction: row;
+
+    .modelListWrapper {
+      display: flex;
+      flex-direction: column;
+
+      .modelList {
+        .modelListItem {
+          width: 320px;
+          height: 86px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 16px;
+          transition: 0.2s;
+         // background: #fff;
+         // background-color: #fff;
+          -webkit-transition: background 1s ease-out;
+          -moz-transition: background 1s ease-out;
+          -o-transition: background 1s ease-out;
+          transition: background 1s ease-out;
+
+
+          .modelImageArea {
+            transform: rotateX(3.142rad);
+            width: 125px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            .modelImg {
+             // width: 125px;
+              height: 48px;
+              transform: rotate(180deg);
+              position: relative;
+            }
+          }
+
+          .modelTextArea {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            .modelName {
+              font-weight: 300;
+              font-size: 14px;
+            }
+
+            .modelSubText {
+              font-weight: 300;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .modelContentArea {
+      display: flex;
+      flex-direction: row;
+
+      .modelContent {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding: 24px;
+
+        .informationArea {
+          width: 360px;
+          display: flex;
+          flex-direction: column;
+
+          .textArea {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .mainText {
+              font-size: 38px;
+              font-weight: 300;
+              line-height: 44px;
+              margin:0;
+              padding:0
+            }
+
+            .subText {
+              font-size: 14px;
+              font-weight: 300;
+              letter-spacing: 1px;
+              line-height: 24px;
+            }
+          }
+
+          .buttonArea {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-top: 64px;
+          }
+        }
+
+        .imgArea {
+          display: flex;
+          position: relative;
+          box-sizing: border-box;
+          padding: 48px 36px;
+
+          .backImg {
+            position: absolute;
+            right: 0px;
+            bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modelListItemActive {
+  background: rgb(56,56,78)!important;
+  background: linear-gradient(90deg, rgba(56,56,78,0.24555759803921573) 0%, rgba(255,255,255,1) 100%)!important;
+}

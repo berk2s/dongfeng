@@ -69,6 +69,9 @@
 
         //  transform: rotate(180deg);
 
+        video {
+          object-fit: fill;
+        }
       }
       .glassEffect {
         width: 100vw;

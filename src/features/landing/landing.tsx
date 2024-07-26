@@ -28,7 +28,6 @@ const data = [
 ];
 
 const Renderer = ({ i }) => {
-  console.log("HEY");
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({ target: ref });
