@@ -14,8 +14,8 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dongfeng",
-  description: "Donnngfeng",
+  title: "Dongfeng Türkiye Resmi Sayfası",
+  description: "Donngfeng",
 };
 
 export default async function RootLayout(props: any) {
@@ -24,6 +24,7 @@ export default async function RootLayout(props: any) {
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/cropped-fvcn-32x32.png" sizes="32x32" />
         <meta
           meta
           name="viewport"

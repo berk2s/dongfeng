@@ -14,7 +14,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dongfeng",
+  title: "Dongfeng HUGE - Premium SUV",
   description: "Donnngfeng",
 };
 

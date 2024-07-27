@@ -14,7 +14,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dongfeng",
+  title: "Dongfeng Rich6 - Arazinin Kaplanı",
   description: "Donnngfeng",
 };
 
