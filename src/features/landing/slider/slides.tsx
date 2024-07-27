@@ -4,7 +4,7 @@ import {
   CurrentSlideData,
   Data,
 } from "@manhattanlabs/features/landing/slider/main-hero";
-
+import Style from "./main-hero.module.scss";
 type Props = {
   data: Data[];
 };
@@ -19,7 +19,7 @@ function Slides({
   initData,
 }: any) {
   return (
-    <div className=" flex w-full gap-6">
+    <div className={`flex w-full gap-6 ${Style.slidesArea}`}>
       {data.map((datax) => {
         return (
           <SliderCard

@@ -1,0 +1,1211 @@
+   // {
+    //   "id": 1,
+    //   "displayName": "Shine GS",
+    //   "packages": [
+    //     {
+    //       "id": 0,
+    //       "displayName": "Techno",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Dinamik stabilizasyon sistemi"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "Klima kontrol"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Anahtarsız giriş sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka görüş kamerası"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Ön hava yastıkları"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "PM 2.5 otomatik hava temizleme sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Yan destekli spor koltuklar"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Akıllı telefon ekranı yansıtma EasyConnection"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Bluetooth eller serbest özelliği"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "Lastik basıncı izleme sistemi TPMS"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "Yokuş kalkış desteği"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 1,
+    //       "displayName": "Premium",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Yüksek Kaliteli Çevresel Ses Sistemi"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Sürüş modlarının seçilmesi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka park sensörleri"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Hız kontrolü"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 2,
+    //       "displayName": "Premium Sport",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Elektrikle ayarlanabilen ön koltuklar"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Kör Nokta İzleme Sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "4 hava yastığı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Elektrikli katlanır aynalar"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Karşılama ışığı"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         },
+    //         {
+    //           "key": "color3",
+    //           "value": "Renk4",
+    //           "colorImg": "https://dongfeng.by/wp-content/uploads/2024/02/бирюзовый-черная-крыша_1.png"
+    //         }
+    //       ]
+    //     }
+    //   ],
+    //   "menuInformation": {
+    //     "title": "Shine GS",
+    //     "subTitle": "Benzinli ve Otomatik",
+    //     "subDescription": "Aerodinamik akış çizgisi şekli, hem göz alıcı bir estetik sunar hem de hava direncini azaltarak performansı artırır. Bu benzersiz tasarım, modern teknoloji ile klasik güzelliği harmanlayarak her ortamda parlamayı başarır.",
+    //     "menuSmallImg": "/images/menu/shine-gs-menu.png",
+    //     "menuHeroImg": "/images/menu/shine-gs-menu.png",
+    //     "menuHeroBigImg": "/images/menu/shine-gs-big.jpg",
+    //     "menuHeroBackImg": "/images/menu/shine-gs-secondary.jpg"
+    //   }
+    // },
+    // {
+    //   "id": 2,
+    //   "displayName": "Shine Max",
+    //   "packages": [
+    //     {
+    //       "id": 0,
+    //       "displayName": "Techno",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Dinamik stabilizasyon sistemi"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "Klima kontrol"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Anahtarsız giriş sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka görüş kamerası"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Ön hava yastıkları"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "PM 2.5 otomatik hava temizleme sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Yan destekli spor koltuklar"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Akıllı telefon ekranı yansıtma EasyConnection"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Bluetooth eller serbest özelliği"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "Lastik basıncı izleme sistemi TPMS"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "Yokuş kalkış desteği"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 1,
+    //       "displayName": "Premium",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Yüksek Kaliteli Çevresel Ses Sistemi"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Sürüş modlarının seçilmesi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka park sensörleri"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Hız kontrolü"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 2,
+    //       "displayName": "Premium Sport",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Elektrikle ayarlanabilen ön koltuklar"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Kör Nokta İzleme Sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "4 hava yastığı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Elektrikli katlanır aynalar"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Karşılama ışığı"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         },
+    //         {
+    //           "key": "color3",
+    //           "value": "Renk4",
+    //           "colorImg": "https://dongfeng.by/wp-content/uploads/2024/02/бирюзовый-черная-крыша_1.png"
+    //         }
+    //       ]
+    //     }
+    //   ],
+    //   "menuInformation": {
+    //     "title": "Shine Max",
+    //     "subTitle": "Benzinli ve Otomatik",
+    //     "subDescription": "Aerodinamik akış çizgisi şekli, hem göz alıcı bir estetik sunar hem de hava direncini azaltarak performansı artırır. Bu benzersiz tasarım, modern teknoloji ile klasik güzelliği harmanlayarak her ortamda parlamayı başarır.",
+    //     "menuSmallImg": "/images/menu/shine-max-menu.png",
+    //     "menuHeroImg": "/images/menu/shine-max-menu.png",
+    //     "menuHeroBigImg": "/images/menu/shine-max-big.jpg",
+    //     "menuHeroBackImg": "/images/menu/shine-max-secondary.jpg"
+    //   }
+    // },
+
+        // {
+    //   "id": 4,
+    //   "displayName": "T5 Evo",
+    //   "packages": [
+    //     {
+    //       "id": 0,
+    //       "displayName": "Techno",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Dinamik stabilizasyon sistemi"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "Klima kontrol"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Anahtarsız giriş sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka görüş kamerası"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Ön hava yastıkları"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "PM 2.5 otomatik hava temizleme sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Yan destekli spor koltuklar"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Akıllı telefon ekranı yansıtma EasyConnection"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Bluetooth eller serbest özelliği"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "Lastik basıncı izleme sistemi TPMS"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "Yokuş kalkış desteği"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 1,
+    //       "displayName": "Premium",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Yüksek Kaliteli Çevresel Ses Sistemi"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Sürüş modlarının seçilmesi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka park sensörleri"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Hız kontrolü"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 2,
+    //       "displayName": "Premium Sport",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Elektrikle ayarlanabilen ön koltuklar"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Kör Nokta İzleme Sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "4 hava yastığı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Elektrikli katlanır aynalar"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Karşılama ışığı"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         },
+    //         {
+    //           "key": "color3",
+    //           "value": "Renk4",
+    //           "colorImg": "https://dongfeng.by/wp-content/uploads/2024/02/бирюзовый-черная-крыша_1.png"
+    //         }
+    //       ]
+    //     }
+    //   ],
+    //   "menuInformation": {
+    //     "title": "T5 Evo",
+    //     "subTitle": "Benzinli ve Otomatik",
+    //     "subDescription": "Aerodinamik akış çizgisi şekli, hem göz alıcı bir estetik sunar hem de hava direncini azaltarak performansı artırır. Bu benzersiz tasarım, modern teknoloji ile klasik güzelliği harmanlayarak her ortamda parlamayı başarır.",
+    //     "menuSmallImg": "/images/menu/t5evo-menu.png",
+    //     "menuHeroImg": "/images/menu/t5evo-menu.png",
+    //     "menuSmallImgWidth": 100,
+    //     "menuHeroBigImg": "/images/menu/t5-big.jpeg",
+    //     "menuHeroBackImg": "/images/menu/t5-secondary.jpeg"
+    //   }
+    // },
+    // {
+    //   "id": 5,
+    //   "displayName": "M4 U-Tour",
+    //   "packages": [
+    //     {
+    //       "id": 0,
+    //       "displayName": "Techno",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Dinamik stabilizasyon sistemi"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "Klima kontrol"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Anahtarsız giriş sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka görüş kamerası"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Ön hava yastıkları"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "PM 2.5 otomatik hava temizleme sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Yan destekli spor koltuklar"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Akıllı telefon ekranı yansıtma EasyConnection"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Bluetooth eller serbest özelliği"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "Lastik basıncı izleme sistemi TPMS"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "Yokuş kalkış desteği"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 1,
+    //       "displayName": "Premium",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Yüksek Kaliteli Çevresel Ses Sistemi"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Sürüş modlarının seçilmesi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "Arka park sensörleri"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Hız kontrolü"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Işık sensörü"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       "id": 2,
+    //       "displayName": "Premium Sport",
+    //       "mainFeatures": [
+    //         {
+    //           "key": "horsePower",
+    //           "displayName": "Beygir",
+    //           "value": "117"
+    //         }
+    //       ],
+    //       "packageIncluded": [
+    //         {
+    //           "key": "feature0",
+    //           "value": "Otomatik şanzıman DCT6"
+    //         },
+    //         {
+    //           "key": "feature1",
+    //           "value": "LED farlar"
+    //         },
+    //         {
+    //           "key": "feature2",
+    //           "value": "Elektrikli perdeli sunroof"
+    //         },
+    //         {
+    //           "key": "feature3",
+    //           "value": "İklim kontrolü"
+    //         },
+    //         {
+    //           "key": "feature4",
+    //           "value": "Elektrikle ayarlanabilen ön koltuklar"
+    //         },
+    //         {
+    //           "key": "feature5",
+    //           "value": "Kör Nokta İzleme Sistemi"
+    //         },
+    //         {
+    //           "key": "feature6",
+    //           "value": "13'' ULTRA HD multimedya ekranı"
+    //         },
+    //         {
+    //           "key": "feature7",
+    //           "value": "4 hava yastığı"
+    //         },
+    //         {
+    //           "key": "feature8",
+    //           "value": "Alaşım jantlar R16"
+    //         },
+    //         {
+    //           "key": "feature9",
+    //           "value": "Elektrikli katlanır aynalar"
+    //         },
+    //         {
+    //           "key": "feature10",
+    //           "value": "Anahtarsız Giriş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature11",
+    //           "value": "Bagaj kapağındaki spolier"
+    //         },
+    //         {
+    //           "key": "feature12",
+    //           "value": "Senaryo sistemi Akıllı araba"
+    //         },
+    //         {
+    //           "key": "feature13",
+    //           "value": "Karşılama ışığı"
+    //         },
+    //         {
+    //           "key": "feature14",
+    //           "value": "540° Çevre Görüş Sistemi"
+    //         },
+    //         {
+    //           "key": "feature15",
+    //           "value": "7'' HD dijital gösterge paneli"
+    //         }
+    //       ],
+    //       "colorOptions": [
+    //         {
+    //           "key": "color0",
+    //           "value": "Renk1",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/серый-черная-крыша_1-1.png"
+    //         },
+    //         {
+    //           "key": "color1",
+    //           "value": "Renk2",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/Белый_1-1.png"
+    //         },
+    //         {
+    //           "key": "color2",
+    //           "value": "Renk3",
+    //           "colorImg": "https://aeolus.by/wp-content/uploads/2023/09/черный_1-1.png"
+    //         },
+    //         {
+    //           "key": "color3",
+    //           "value": "Renk4",
+    //           "colorImg": "https://dongfeng.by/wp-content/uploads/2024/02/бирюзовый-черная-крыша_1.png"
+    //         }
+    //       ]
+    //     }
+    //   ],
+    //   "menuInformation": {
+    //     "title": "M4 U-Tour",
+    //     "subTitle": "Benzinli ve Otomatik",
+    //     "subDescription": "Aerodinamik akış çizgisi şekli, hem göz alıcı bir estetik sunar hem de hava direncini azaltarak performansı artırır. Bu benzersiz tasarım, modern teknoloji ile klasik güzelliği harmanlayarak her ortamda parlamayı başarır.",
+    //     "menuSmallImg": "/images/menu/m4-menu.png",
+    //     "menuHeroImg": "/images/menu/m4-menu.png",
+    //     "menuHeroBigImg": "/images/menu/m4-big.jpeg",
+    //     "menuHeroBackImg": "/images/menu/m4-secondary.jpeg"
+
+    //   }
+    // },

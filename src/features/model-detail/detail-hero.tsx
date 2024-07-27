@@ -34,7 +34,7 @@ const DetailHero = ({ ref, y }: { ref: any; y: any }) => {
             <div
               className={c(
                 Style.textArea,
-                "flex flex-col text-center justify-center items-center",
+                "flex flex-col text-center justify-center items-center"
               )}
               style={{ height: "100%" }}
             >
@@ -73,19 +73,12 @@ const DetailHero = ({ ref, y }: { ref: any; y: any }) => {
                     wrapper="h1"
                     cursor={false}
                     repeat={0}
-                    style={{
-                      whiteSpace: "pre-line",
-                      fontSize: "1em",
-                      display: "inline-block",
-                      color: "white",
-                      width: 348,
-                    }}
-                    className={"text-xl leading-1 font-thin  text-white mb-0"}
+                    className={`text-xl leading-1 font-thin  text-white mb-0 ${Style.mainHeroText1}`}
                   />
                 )}
               </div>
 
-              <div className={"mt-[64px] flex flex-row"}>
+              <div className="mt-[64px] flex flex-col md:flex-row">
                 {isCompleted2 && (
                   <>
                     <TypeAnimation

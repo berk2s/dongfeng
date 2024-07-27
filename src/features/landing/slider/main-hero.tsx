@@ -40,9 +40,7 @@ const MainHero = ({ ref }) => {
 
   return (
     <div
-      className={
-        "relative min-h-screen select-none overflow-hidden text-white antialiased"
-      }
+      className="relative min-h-screen select-none overflow-hidden text-white antialiased"
       ref={ref}
       style={{ scrollSnapAlign: "center" }}
     >
@@ -51,16 +49,16 @@ const MainHero = ({ ref }) => {
           transitionData={transitionData}
           currentSlideData={currentSlideData}
         />
-        <div className="  absolute z-20  h-full w-full">
+        <div className="absolute z-20 h-full w-full">
           {/*<Header />*/}
-          <div className=" flex  flex-col  justify-between h-full">
-            <div className="   flex h-full flex-col justify-end px-5 md:mb-0 md:justify-center md:px-10">
+          <div className="flex flex-col justify-between h-full">
+            <div className="flex h-full flex-col justify-end px-5 mb-5 md:mb-0 md:justify-center md:px-10">
               <SlideInfo
                 transitionData={transitionData}
                 currentSlideData={currentSlideData}
               />
             </div>
-            <div className="  flex flex-col justify-start  md:justify-center md:px-10">
+            <div className="flex flex-col justify-start md:justify-center md:px-10">
               <Slides
                 currentSlideData={currentSlideData}
                 data={data}
@@ -71,21 +69,22 @@ const MainHero = ({ ref }) => {
                 handleCurrentSlideData={setCurrentSlideData}
                 sliderData={sliderData}
               />
-              {/*<Controls*/}
-              {/*  currentSlideData={currentSlideData}*/}
-              {/*  data={data}*/}
-              {/*  transitionData={transitionData}*/}
-              {/*  initData={initData}*/}
-              {/*  handleData={setData}*/}
-              {/*  handleTransitionData={setTransitionData}*/}
-              {/*  handleCurrentSlideData={setCurrentSlideData}*/}
-              {/*  sliderData={sliderData}*/}
-              {/*/>*/}
+              {/*<Controls
+            currentSlideData={currentSlideData}
+            data={data}
+            transitionData={transitionData}
+            initData={initData}
+            handleData={setData}
+            handleTransitionData={setTransitionData}
+            handleCurrentSlideData={setCurrentSlideData}
+            sliderData={sliderData}
+          />*/}
             </div>
           </div>
         </div>
       </AnimatePresence>
     </div>
+
     // <div className={c(Style.mainHero)}>
     //   <div className={c(Style.mainHeroWrapper)}>
     //     <div className={c(Style.heroArea)}>

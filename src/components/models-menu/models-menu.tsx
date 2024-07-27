@@ -86,7 +86,7 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
       initial={{ height: 0, opacity: 0 }}
       // animate={{ height: "calc(100vh - 144px)", opacity: 1 }}
       // transition={{ duration: 0.6 }}
-      style={{ zIndex: isOpen ? 999999 : 0 }}
+      style={{ zIndex: isOpen ? 99999999 : 0 }}
       ref={scope}
     >
       <div className={Style.models}>
@@ -188,7 +188,7 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
                         </a>
                       </div>
 
-                      <div className={Style.buttonArea}>
+                      {/* <div className={Style.buttonArea}>
                         <button
                           className=" w-fit  border-[1px] border-[#fff]  py-3 text-[12px] font-regular transition duration-300
             ease-in-out  hover:text-gray-500  tracking-[3px] flex items-center gap-3"
@@ -203,7 +203,7 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
                           <IoIosInformationCircle />
                           BİLGİ AL
                         </button>
-                      </div>
+                      </div> */}
                     </motion.div>
 
                     <motion.div

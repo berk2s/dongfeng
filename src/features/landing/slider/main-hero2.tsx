@@ -52,11 +52,7 @@ const MainHero2 = ({ ref, y }) => {
                 wrapper="h1"
                 cursor={false}
                 repeat={0}
-                style={{
-                  fontSize: "2em",
-                  display: "inline-block",
-                  color: "white",
-                }}
+                className={Style.text1}
               />
               <div className={"mt-3"}>
                 {isCompleted && (
@@ -73,12 +69,7 @@ const MainHero2 = ({ ref, y }) => {
                     wrapper="h1"
                     cursor={false}
                     repeat={0}
-                    style={{
-                      whiteSpace: "pre-line",
-                      fontSize: "1em",
-                      display: "inline-block",
-                      color: "white",
-                    }}
+                    className={Style.text2}
                   />
                 )}
               </div>

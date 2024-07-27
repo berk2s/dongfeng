@@ -120,6 +120,10 @@ const Header = () => {
   }, [isModelMenuOpen]);
 
   const toggleMenu = () => {
+    if (isModelMenuOpen) {
+      setIsModelMenuOpen(false);
+      return;
+    }
     setIsMenuOpen(!isMenuOpen);
   };
 
@@ -141,7 +145,8 @@ const Header = () => {
                 <ul
                   className={c(
                     Style.menuList,
-                    isMenuOpen ? Style.menuOpen : ""
+                    isMenuOpen ? Style.menuOpen : "",
+                    isModelMenuOpen ? Style.modelMenuOpen : ""
                   )}
                 >
                   <li
@@ -185,9 +190,15 @@ const Header = () => {
 
             <div className={c(Style.hamburger)} onClick={toggleMenu}>
               <div className={c(isMenuOpen ? Style.hamburgerOpen : "")}>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span
+                  style={{ backgroundColor: isModelMenuOpen ? "#000" : "#fff" }}
+                ></span>
+                <span
+                  style={{ backgroundColor: isModelMenuOpen ? "#000" : "#fff" }}
+                ></span>
+                <span
+                  style={{ backgroundColor: isModelMenuOpen ? "#000" : "#fff" }}
+                ></span>
               </div>
             </div>
           </div>

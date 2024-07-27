@@ -5,7 +5,8 @@
   position: absolute;
   top: 144px;
   left: 0;
-  padding:24px 48px 24px;
+  padding: 24px 48px 24px;
+  z-index: 9999999;
 
   .models {
     display: flex;
@@ -24,13 +25,12 @@
           align-items: center;
           gap: 16px;
           transition: 0.2s;
-         // background: #fff;
-         // background-color: #fff;
+          // background: #fff;
+          // background-color: #fff;
           -webkit-transition: background 1s ease-out;
           -moz-transition: background 1s ease-out;
           -o-transition: background 1s ease-out;
           transition: background 1s ease-out;
-
 
           .modelImageArea {
             transform: rotateX(3.142rad);
@@ -39,7 +39,7 @@
             display: flex;
             justify-content: center;
             .modelImg {
-             // width: 125px;
+              // width: 125px;
               height: 48px;
               transform: rotate(180deg);
               position: relative;
@@ -89,8 +89,8 @@
               font-size: 38px;
               font-weight: 300;
               line-height: 44px;
-              margin:0;
-              padding:0
+              margin: 0;
+              padding: 0;
             }
 
             .subText {
@@ -127,6 +127,26 @@
 }
 
 .modelListItemActive {
-  background: rgb(56,56,78)!important;
-  background: linear-gradient(90deg, rgba(56,56,78,0.24555759803921573) 0%, rgba(255,255,255,1) 100%)!important;
+  background: rgb(56, 56, 78) !important;
+  background: linear-gradient(90deg, rgba(56, 56, 78, 0.24555759803921573) 0%, rgba(255, 255, 255, 1) 100%) !important;
+}
+
+@media (max-width: 768px) {
+  .models {
+    flex-direction: column !important;
+  }
+
+  .modelContent {
+    padding: 0 !important;
+    flex-direction: column !important;
+  }
+
+  .imgArea {
+    display: none !important;
+  }
+
+  .informationArea {
+    width: auto !important;
+    margin-top: 32px !important;
+  }
 }

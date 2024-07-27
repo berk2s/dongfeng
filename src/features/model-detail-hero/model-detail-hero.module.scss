@@ -41,3 +41,25 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .heroWrapper {
+    padding: 0px !important;
+  }
+
+  .boxArea {
+    top: 547px !important;
+    bottom: 4px !important;
+    left: -8px !important;
+    padding: 24px 48px !important;
+    height: 280px !important;
+
+    .mainText {
+      font-size: 16px !important;
+    }
+
+    .subText {
+      font-size: 14px !important;
+    }
+  }
+}
