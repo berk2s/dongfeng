@@ -4,7 +4,7 @@ import Header from "@manhattanlabs/components/layout/header";
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import ReactPlayer from "react-player";
+import Image from "next/image";
 
 const DetailHeroRich6 = ({ ref, y }: { ref: any; y: any }) => {
   const imageAreaWrapperRef = useRef<HTMLDivElement>(null);
@@ -198,14 +198,14 @@ const DetailHeroRich6 = ({ ref, y }: { ref: any; y: any }) => {
         <div className={c(Style.mainHeroBackground)}>
           {/*<div className={c(Style.glassEffect)}></div>*/}
           <div className={c(Style.mainHeroBackgroundWrapper)}>
-            <ReactPlayer
-              playing
-              loop
-              muted={true}
-              url="/videos/rich6.webm"
-              width={"100%"}
-              height={"100%"}
-              style={{ objectFit: "contain" }}
+            <Image
+              src={"/images/detail/rich6/rich6bg2.png"}
+              alt={"Rich6"}
+              objectFit="cover"
+              sizes="100vw"
+              width={200}
+              height={160}
+              style={{ width: "100%", height: "100%", objectFit: "cover" }} // optional
             />
           </div>
         </div>

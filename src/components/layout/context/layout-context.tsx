@@ -1,10 +1,14 @@
 "use client";
 
 import React, { createContext } from "react";
-import { Model } from "@manhattanlabs/lib/types";
+import { Brand, Model } from "@manhattanlabs/lib/types";
 
-export const LayoutContext = createContext<{ models: Model[] }>({
+export const LayoutContext = createContext<{
+  models: Model[];
+  brands: Brand[];
+}>({
   models: [],
+  brands: [],
 });
 
 // @ts-ignore

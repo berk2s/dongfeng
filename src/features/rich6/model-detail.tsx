@@ -84,8 +84,8 @@ const data = [
         textAlign={"left"}
         title={"Geniş Saklama Gözü"}
         desc={`Geniş saklama gözüyle her türlü eşyanızı rahatça sığdırabileceğiniz ekstra depolama alanı sunar. Günlük ihtiyaçlarınızdan uzun yolculuklardaki eşyalarınıza kadar her şeyi düzenli bir şekilde yerleştirmenizi sağlar. Aracınızı daha düzenli ve kullanışlı hale getiren bu saklama gözü, konforunuzu artırır.`}
-        primaryImg={"/images/detail/rich6/rich6_4.jpg"}
-        secondaryImg={"/images/detail/rich6/rich6_4.jpg"}
+        primaryImg={"/images/detail/rich6/rich6_storage.jpg"}
+        secondaryImg={"/images/detail/rich6/rich6_storage.jpg"}
         ref={ref}
         y={y}
       />
@@ -139,14 +139,14 @@ const data = [
       <ModelDetailGallery
         photos={[
           {
-            src: "/images/detail/rich6/rich6_1.jpg",
-            width: 1200,
-            height: 700,
+            src: "/images/detail/rich6/rich6_feature.png",
+            width: 1500,
+            height: 800,
           },
           {
-            src: "/images/detail/rich6/rich6_2.jpg",
+            src: "/images/detail/rich6/rich6_feature1.jpg",
             width: 1200,
-            height: 700,
+            height: 800,
           },
           {
             src: "/images/detail/rich6/rich6_13.jpg",
@@ -154,10 +154,11 @@ const data = [
             height: 700,
           },
           {
-            src: "/images/detail/rich6/rich6_7.jpg",
-            width: 400,
-            height: 300,
+            src: "/images/detail/rich6/rich6_feature2.jpg",
+            width: 1200,
+            height: 700,
           },
+
           {
             src: "/images/detail/rich6/rich6_11.jpg",
             width: 400,

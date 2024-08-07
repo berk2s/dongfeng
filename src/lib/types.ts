@@ -1,8 +1,21 @@
+export interface Brand {
+  id: number;
+  brandName: string;
+  logo: string;
+  sizes: Sizes;
+}
+
+export interface Sizes {
+  width: string;
+  height: string;
+}
+
 export interface Model {
   id: number;
+  brandId: number;
   displayName: string;
   packages: Package[];
-  detailLink: string;
+  detailLink?: string;
   menuInformation: MenuInformation;
 }
 
@@ -16,6 +29,7 @@ export interface MenuInformation {
   menuHeroBigImg: string;
   menuHeroBackImg: string;
   menuHeroFrontImg: string;
+  noImgRotate: boolean;
 }
 
 export interface Package {

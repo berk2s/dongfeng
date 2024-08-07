@@ -126,6 +126,37 @@
   }
 }
 
+.brandListWrapper {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.brandList {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin-bottom: 32px;
+  width: max-content;
+
+  .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding: 16px;
+    width: 212px;
+    box-sizing: border-box;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .brandActive {
+    background: rgb(53, 53, 54);
+    background: linear-gradient(0deg, rgba(53, 53, 54, 0.15312062324929976) 0%, rgba(255, 255, 255, 1) 71%);
+  }
+}
+
 .modelListItemActive {
   background: rgb(56, 56, 78) !important;
   background: linear-gradient(90deg, rgba(56, 56, 78, 0.24555759803921573) 0%, rgba(255, 255, 255, 1) 100%) !important;

@@ -13,10 +13,12 @@ import { IoIosInformationCircle } from "react-icons/io";
 const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
   const layoutContext = useContext(LayoutContext);
   const [activeMenu, setActiveMenu] = useState(layoutContext.models[0].id);
-
+  const [activeBrand, setActiveBrand] = useState(0);
   const targetOneRef = useRef<HTMLDivElement>(null);
+  const [models, setModels] = useState<any[]>([]);
   const [scope, animate] = useAnimate();
   const [scope2, animate2] = useAnimate();
+  const isInitial = useRef(true);
 
   useEffect(() => {
     // @ts-ignore
@@ -80,6 +82,16 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
     setActiveMenu(id);
   };
 
+  useEffect(() => {
+    if (isInitial.current) {
+      setModels([...layoutContext.models.filter((i) => i.brandId === 0)]);
+      isInitial.current = false;
+      return;
+    }
+
+    setModels(layoutContext.models.filter((i) => i.brandId === activeBrand));
+  }, [activeBrand]);
+
   return (
     <motion.div
       className={Style.modelsMenuWrapper}
@@ -89,6 +101,40 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
       style={{ zIndex: isOpen ? 99999999 : 0 }}
       ref={scope}
     >
+      <div className={Style.brandListWrapper}>
+        <div className={Style.brandList}>
+          {layoutContext.brands.map((i) => {
+            return (
+              <>
+                <div
+                  className={c(
+                    Style.brand,
+                    activeBrand === i.id ? Style.brandActive : ""
+                  )}
+                  onMouseEnter={() => {
+                    setActiveBrand(i.id);
+                    setActiveMenu(
+                      layoutContext.models.filter((x) => x.brandId === i.id)[0]
+                        .id
+                    );
+                  }}
+                >
+                  {i.logo ? (
+                    <Image
+                      src={i.logo}
+                      width={parseInt(i.sizes.width)}
+                      height={parseInt(i.sizes.height)}
+                      alt={i.brandName}
+                    />
+                  ) : (
+                    <span>{i.brandName}</span>
+                  )}
+                </div>
+              </>
+            );
+          })}
+        </div>
+      </div>
       <div className={Style.models}>
         <div className={Style.modelListWrapper}>
           <motion.ul className={Style.modelList} ref={scope2}>
@@ -96,69 +142,72 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
               const [scope1, animate1] = useAnimate();
 
               return (
-                <li
-                  className={c(
-                    Style.modelListItem,
-                    activeMenu === i.id ? Style.modelListItemActive : ""
-                  )}
-                  onMouseLeave={() => {
-                    animate1(
-                      scope1.current,
-                      {
-                        left: 0,
-                      },
-                      { duration: 0.4 }
-                    );
-                  }}
-                  onMouseEnter={() => {
-                    handleMouseEnter(i.id);
+                <>
+                  {i.brandId === activeBrand && (
+                    <li
+                      className={c(
+                        Style.modelListItem,
+                        activeMenu === i.id ? Style.modelListItemActive : ""
+                      )}
+                      onMouseLeave={() => {
+                        animate1(
+                          scope1.current,
+                          {
+                            left: 0,
+                          },
+                          { duration: 0.4 }
+                        );
+                      }}
+                      onMouseEnter={() => {
+                        handleMouseEnter(i.id);
 
-                    animate1(
-                      scope1.current,
-                      {
-                        left: -3,
-                      },
-                      { duration: 0.4 }
-                    );
-                  }}
-                >
-                  <div className={Style.modelImageArea}>
-                    <Image
-                      className={Style.modelImg}
-                      src={i.menuInformation.menuSmallImg}
-                      width={
-                        i.menuInformation.menuSmallImgWidth
-                          ? i.menuInformation.menuSmallImgWidth
-                          : 140
-                      }
-                      height={70}
-                      alt={i.menuInformation.title}
-                      ref={scope1}
-                    />
-                  </div>
-                  <div className={Style.modelTextArea}>
-                    <span className={Style.modelName}>
-                      {i.menuInformation.title}
-                    </span>
-                    <span className={Style.modelSubText}>
-                      {i.menuInformation.subTitle}
-                    </span>
-                  </div>
-                </li>
+                        animate1(
+                          scope1.current,
+                          {
+                            left: -3,
+                          },
+                          { duration: 0.4 }
+                        );
+                      }}
+                    >
+                      <div className={Style.modelImageArea}>
+                        <Image
+                          className={c(Style.modelImg)}
+                          src={i.menuInformation.menuSmallImg}
+                          width={
+                            i.menuInformation.menuSmallImgWidth
+                              ? i.menuInformation.menuSmallImgWidth
+                              : 140
+                          }
+                          height={70}
+                          alt={i.menuInformation.title}
+                          ref={scope1}
+                        />
+                      </div>
+                      <div className={Style.modelTextArea}>
+                        <span className={Style.modelName}>
+                          {i.menuInformation.title}
+                        </span>
+                        <span className={Style.modelSubText}>
+                          {i.menuInformation.subTitle}
+                        </span>
+                      </div>
+                    </li>
+                  )}
+                </>
               );
             })}
           </motion.ul>
         </div>
-
         <div className={Style.modelContentArea}>
-          {layoutContext.models.map((i) => {
-            const [scope1, animate1] = useAnimate();
-            const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
+          {models
+            .filter((i) => i.id === activeMenu)
+            .map((i) => {
+              const staggerMenuItems = stagger(0.1, { startDelay: 0.15 });
 
-            return (
-              <>
-                {activeMenu === i.id && (
-                  <motion.div className={c(Style.modelContent)} ref={scope1}>
+              return (
+                <>
+                  <motion.div className={c(Style.modelContent)}>
                     <motion.div
                       className={Style.informationArea}
                       initial={{ opacity: 0, scale: 0 }}
@@ -179,13 +228,17 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
                           {i.menuInformation.subDescription}
                         </span>
 
-                        <a
-                          href={i.detailLink}
-                          className=" w-fit  border-[1px] border-[#000] px-6 py-3 text-[12px] font-regular transition duration-300
+                        {i.detailLink && (
+                          <>
+                            <a
+                              href={i.detailLink}
+                              className=" w-fit  border-[1px] border-[#000] px-6 py-3 text-[12px] font-regular transition duration-300
             ease-in-out hover:bg-gray-950 hover:text-white  tracking-[3px]"
-                        >
-                          Keşfet
-                        </a>
+                            >
+                              Keşfet
+                            </a>
+                          </>
+                        )}
                       </div>
 
                       {/* <div className={Style.buttonArea}>
@@ -235,10 +288,9 @@ const ModelsMenu = ({ isOpen }: { isOpen: boolean }) => {
                       </div>
                     </motion.div>
                   </motion.div>
-                )}
-              </>
-            );
-          })}
+                </>
+              );
+            })}
         </div>
       </div>
     </motion.div>

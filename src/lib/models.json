@@ -1,7 +1,46 @@
 {
+  "brands": [
+    {
+      "id": 0,
+      "brandName": "Dongfeng",
+      "logo": "/images/dongfeng-logo-black.svg",
+      "sizes": {
+        "width": "180",
+        "height": "50"
+      }
+    },
+    {
+      "id": 1,
+      "brandName": "Voyah",
+      "logo": "/images/voyahlogo.png",
+      "sizes": {
+        "width": "120",
+        "height": "10"
+      }
+    },
+    {
+      "id": 2,
+      "brandName": "Dongfeng Trucks",
+      "logo": "/images/dongfengtrucks_logo.png",
+      "sizes": {
+        "width": "120",
+        "height": "10"
+      }
+    },
+    {
+      "id": 3,
+      "brandName": "Çok Yakında",
+      "logo": null,
+      "sizes": {
+        "width": "120",
+        "height": "10"
+      }
+    }
+  ],
   "models": [
     {
       "id": 0,
+      "brandId": 0,
       "displayName": "Shine",
       "detailLink": "/shine",
       "packages": [
@@ -306,7 +345,8 @@
     },
  
     {
-      "id": 3,
+      "id": 1,
+      "brandId": 0,
       "displayName": "Huge",
       "detailLink": "/huge",
       "packages": [
@@ -610,7 +650,8 @@
     },
 
     {
-      "id": 6,
+      "id": 2,
+      "brandId": 0,
       "displayName": "Rich 6",
       "detailLink": "/rich6",
       "packages": [
@@ -912,7 +953,99 @@
         "menuHeroBackImg": "/images/detail/rich6/rich6_8.webp"
 
       }
-    }
+    },
 
+    {
+      "id": 8,
+      "brandId": 0,
+      "displayName": "V-Online",
+      "menuInformation": {
+        "title": "V-Online",
+        "subTitle": "Benzinli ve Otomatik",
+        "subDescription": "Dongfeng V Online, modern tasarımı ve gelişmiş teknolojileriyle şehir hayatına uyum sağlayan şık bir SUV'dur. Geniş iç mekanı ve konforlu sürüş deneyimiyle her yolculuğu keyifli hale getirir.",
+        "menuSmallImg": "/images/menu/vonline.png",
+        "menuHeroImg": "/images/menu/vonline.png",
+        "menuHeroBigImg": "/images/detail/vonline/vonline1.jpg",
+        "menuHeroBackImg": "/images/detail/vonline/vonline2.png"
+      }
+    },
+
+
+    {
+      "id": 3,
+      "brandId": 1,
+      "displayName": "Free",
+      "menuInformation": {
+        "title": "Free",
+        "subTitle": "Elektrik",
+        "subDescription": "Voyah Free, lüks tasarımı ve yüksek performansıyla SUV deneyimini yeni bir seviyeye taşıyor. Yenilikçi teknolojileri ve geniş iç mekanıyla konforu ve sürüş keyfini bir arada sunuyor.",
+        "menuSmallImg": "/images/menu/voyahfree.png",
+        "menuHeroImg": "/images/menu/voyahfree.png",
+        "menuHeroBigImg": "/images/detail/free/voyah1.jpg",
+        "menuHeroBackImg": "/images/detail/free/voyah2.jpg",
+        "noImgRotate": true
+      }
+    },
+
+    {
+      "id": 4,
+      "brandId": 1,
+      "displayName": "Dream",
+      "menuInformation": {
+        "title": "Dream",
+        "subTitle": "PHEV",
+        "subDescription": "Voyah Dream, üstün teknoloji ve zarif tasarımıyla elektrikli otomobil deneyimini yeniden tanımlıyor. Yüksek performansı ve çevre dostu özellikleriyle geleceğin sürüş keyfini bugün yaşayın.",
+        "menuSmallImg": "/images/menu/voyah-dream.webp",
+        "menuHeroImg": "/images/menu/voyah-dream.webp",
+        "menuHeroBigImg": "/images/detail/dream/dream1.jpg",
+        "menuHeroBackImg": "/images/detail/dream/dream2.jpg",
+        "noImgRotate": true
+      }
+    },
+
+    {
+      "id": 5,
+      "brandId": 2,
+      "displayName": "GX",
+      "menuInformation": {
+        "title": "GX",
+        "subTitle": "Dizel, Elektrik, Hidrojen",
+        "subDescription": "Dongfeng Trucks GX, sağlam yapısı ve güçlü motoruyla zorlu koşullar için ideal bir çözüm sunar. Dayanıklılığı ve üstün performansıyla taşımacılıkta güvenilir bir iş ortağıdır.",
+        "menuSmallImg": "/images/menu/gx.png",
+        "menuHeroImg": "/images/menu/gx.png",
+        "menuHeroBigImg": "/images/detail/gx/gx1.jpg",
+        "menuHeroBackImg": "/images/detail/gx/gx2.png"
+      }
+    },
+
+    {
+      "id": 6,
+      "brandId": 3,
+      "displayName": "MHERO",
+      "menuInformation": {
+        "title": "MHERO",
+        "subTitle": "1088 HP Elektrik",
+        "subDescription": "Mhero, üstün dayanıklılığı ve modern tasarımıyla şehir içi ve off-road maceralarınıza eşlik edecek mükemmel bir araç. Güçlü motoru ve ileri teknolojisiyle her yolculukta güven ve konfor sunar.",
+        "menuSmallImg": "/images/menu/mhero.png",
+        "menuHeroImg": "/images/menu/mhero.png",
+        "menuHeroBigImg": "/images/detail/mhero/mhero1.jpg",
+        "menuHeroBackImg": "/images/detail/mhero/mhero2.png"
+      }
+    },
+
+    {
+      "id": 7,
+      "brandId": 3,
+      "displayName": "BOX",
+      "menuInformation": {
+        "title": "BOX",
+        "subTitle": "Elektrik",
+        "subDescription": "Dongfeng Box, kompakt yapısı ve çevikliğiyle şehir içi taşımacılık için ideal bir araçtır. Az yer kaplayan tasarımı ve düşük yakıt tüketimiyle ekonomik ve pratik bir çözüm sunar.",
+        "menuSmallImg": "/images/menu/box.png",
+        "menuHeroImg": "/images/menu/box.png",
+        "menuHeroBigImg": "/images/detail/box/box1.webp",
+        "menuHeroBackImg": "/images/detail/box/box2.jpg"
+      }
+    }
   ]
 }
